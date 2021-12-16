@@ -23,8 +23,8 @@ var tokenResponse = await client.RequestPasswordTokenAsync(new PasswordTokenRequ
     ClientId = "client",
     ClientSecret = "secret",
 
-    UserName = "alice",
-    Password = "alice",
+    UserName = "qingrain",
+    Password = "123321",
 
     Scope = "api1 openid profile userrole"
 });

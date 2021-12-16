@@ -39,16 +39,16 @@ namespace QingRain.IdentityServer.ResourceOwnerPassword
             };
 
         public static List<TestUser> Users =>
-            new List<TestUser>
+            new()
             {
                 new TestUser
                 {
                     SubjectId = "88",
-                    Username = "alice",
-                    Password = "alice",
+                    Username = "qingrain",
+                    Password = "123321",
                     Claims=new List<Claim>
                     {
-                        new Claim(JwtRegisteredClaimNames.UniqueName, "alice"),
+                        new Claim(JwtRegisteredClaimNames.UniqueName, "qingrain"),
                         new Claim(JwtClaimTypes.Role, "admin")
                     }
                 }
