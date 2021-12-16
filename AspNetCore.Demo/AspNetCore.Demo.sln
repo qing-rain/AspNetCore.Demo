@@ -29,7 +29,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IDS4-AuthorizationCode", "I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.MvcClient.AuthorizationCode", "IDS4-AuthorizationCode\QingRain.MvcClient.AuthorizationCode\QingRain.MvcClient.AuthorizationCode.csproj", "{CE14E6A3-0E75-487A-A619-51F8D8A01F6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QingRain.IdentityServer.AuthorizationCode", "IDS4-AuthorizationCode\QingRain.IdentityServer.AuthorizationCode\QingRain.IdentityServer.AuthorizationCode.csproj", "{A3BF5DAA-9414-4F11-957C-BABBBE0A70EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.IdentityServer.AuthorizationCode", "IDS4-AuthorizationCode\QingRain.IdentityServer.AuthorizationCode\QingRain.IdentityServer.AuthorizationCode.csproj", "{A3BF5DAA-9414-4F11-957C-BABBBE0A70EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IDS4-AuthorizationCodePKCE", "IDS4-AuthorizationCodePKCE", "{E174EBB4-2AEC-43FA-B5FF-55D16BFC3481}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.IdentityServer.AuthorizationCodePKCE", "IDS4-AuthorizationCodePKCE\QingRain.IdentityServer.AuthorizationCodePKCE\QingRain.IdentityServer.AuthorizationCodePKCE.csproj", "{7369548F-CE38-41E5-9E00-53B3826D4720}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.MvcClient.AuthorizationCodePKCE", "IDS4-AuthorizationCodePKCE\QingRain.MvcClient.AuthorizationCodePKCE\QingRain.MvcClient.AuthorizationCodePKCE.csproj", "{BAC04CA4-7638-4269-92C7-D044FAE02946}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +83,14 @@ Global
 		{A3BF5DAA-9414-4F11-957C-BABBBE0A70EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3BF5DAA-9414-4F11-957C-BABBBE0A70EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3BF5DAA-9414-4F11-957C-BABBBE0A70EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7369548F-CE38-41E5-9E00-53B3826D4720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7369548F-CE38-41E5-9E00-53B3826D4720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7369548F-CE38-41E5-9E00-53B3826D4720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7369548F-CE38-41E5-9E00-53B3826D4720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC04CA4-7638-4269-92C7-D044FAE02946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC04CA4-7638-4269-92C7-D044FAE02946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC04CA4-7638-4269-92C7-D044FAE02946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC04CA4-7638-4269-92C7-D044FAE02946}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +106,8 @@ Global
 		{DE97A7D6-9431-4DE7-8A6B-9A35DB86BFF6} = {11145425-AFFB-4049-A6F0-9EE030081A29}
 		{CE14E6A3-0E75-487A-A619-51F8D8A01F6B} = {117E38DE-242E-4AAC-A97E-8E5975C70A09}
 		{A3BF5DAA-9414-4F11-957C-BABBBE0A70EA} = {117E38DE-242E-4AAC-A97E-8E5975C70A09}
+		{7369548F-CE38-41E5-9E00-53B3826D4720} = {E174EBB4-2AEC-43FA-B5FF-55D16BFC3481}
+		{BAC04CA4-7638-4269-92C7-D044FAE02946} = {E174EBB4-2AEC-43FA-B5FF-55D16BFC3481}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6C2B872-C921-4047-BEB7-FD9EC7310FF2}

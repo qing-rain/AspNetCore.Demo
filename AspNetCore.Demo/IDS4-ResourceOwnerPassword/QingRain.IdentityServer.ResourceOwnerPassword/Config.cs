@@ -6,7 +6,6 @@ using IdentityModel;
 using IdentityServer4;
 using IdentityServer4.Models;
 using IdentityServer4.Test;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 
@@ -46,7 +45,7 @@ namespace QingRain.IdentityServer.ResourceOwnerPassword
                     SubjectId = "88",
                     Username = "qingrain",
                     Password = "123321",
-                    Claims=new List<Claim>
+                    Claims = new List<Claim>
                     {
                         new Claim(JwtRegisteredClaimNames.UniqueName, "qingrain"),
                         new Claim(JwtClaimTypes.Role, "admin")

@@ -19,9 +19,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
         options.TokenValidationParameters = new TokenValidationParameters
         {
-                        //RoleClaimType = "role",
-                        //NameClaimType = "unique_name"
-                    };
+            //RoleClaimType = "role",
+            //NameClaimType = "unique_name"
+        };
     });
 
 builder.Services.AddAuthorization(options =>

@@ -1,10 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using QingRain.MvcClient.AuthorizationCode.Models;
 using System.Diagnostics;
-using System.Linq;
 
 namespace QingRain.MvcClient.AuthorizationCode
 {
