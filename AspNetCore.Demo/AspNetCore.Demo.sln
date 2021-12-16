@@ -11,6 +11,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.Api", "IDS4-Client
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.Client", "IDS4-ClientCredentials\QingRain.Client\QingRain.Client.csproj", "{F6E7D139-B3BF-4539-A18C-721C9048A874}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IDS4-ResourceOwnerPassword", "IDS4-ResourceOwnerPassword", "{D6DF85EF-8A76-43EF-8FBC-309DCDDBE052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QingRain.IdentityServer.ResourceOwnerPassword", "IDS4-ResourceOwnerPassword\QingRain.IdentityServer.ResourceOwnerPassword\QingRain.IdentityServer.ResourceOwnerPassword.csproj", "{AE0DBDF7-FB5F-4FB4-ACEE-2C990F338305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QingRain.Api.ResourceOwnerPassword", "IDS4-ResourceOwnerPassword\QingRain.Api.ResourceOwnerPassword\QingRain.Api.ResourceOwnerPassword.csproj", "{82D0C799-2449-454B-BAE1-2A8198DF4749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QingRain.Client.ResourceOwnerPassword", "IDS4-ResourceOwnerPassword\QingRain.Client.ResourceOwnerPassword\QingRain.Client.ResourceOwnerPassword.csproj", "{9CC4F297-8532-4255-AC55-A88E4936BA93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +37,18 @@ Global
 		{F6E7D139-B3BF-4539-A18C-721C9048A874}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6E7D139-B3BF-4539-A18C-721C9048A874}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6E7D139-B3BF-4539-A18C-721C9048A874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE0DBDF7-FB5F-4FB4-ACEE-2C990F338305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0DBDF7-FB5F-4FB4-ACEE-2C990F338305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0DBDF7-FB5F-4FB4-ACEE-2C990F338305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0DBDF7-FB5F-4FB4-ACEE-2C990F338305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82D0C799-2449-454B-BAE1-2A8198DF4749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D0C799-2449-454B-BAE1-2A8198DF4749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D0C799-2449-454B-BAE1-2A8198DF4749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D0C799-2449-454B-BAE1-2A8198DF4749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC4F297-8532-4255-AC55-A88E4936BA93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC4F297-8532-4255-AC55-A88E4936BA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC4F297-8532-4255-AC55-A88E4936BA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC4F297-8532-4255-AC55-A88E4936BA93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +57,9 @@ Global
 		{0A25D917-F276-4B67-9F74-123D3549879C} = {881F38E4-46A9-46A4-8FA2-FD46F14B56A6}
 		{A1C15036-465C-434F-8EC1-AF98FDB24EE2} = {881F38E4-46A9-46A4-8FA2-FD46F14B56A6}
 		{F6E7D139-B3BF-4539-A18C-721C9048A874} = {881F38E4-46A9-46A4-8FA2-FD46F14B56A6}
+		{AE0DBDF7-FB5F-4FB4-ACEE-2C990F338305} = {D6DF85EF-8A76-43EF-8FBC-309DCDDBE052}
+		{82D0C799-2449-454B-BAE1-2A8198DF4749} = {D6DF85EF-8A76-43EF-8FBC-309DCDDBE052}
+		{9CC4F297-8532-4255-AC55-A88E4936BA93} = {D6DF85EF-8A76-43EF-8FBC-309DCDDBE052}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6C2B872-C921-4047-BEB7-FD9EC7310FF2}
