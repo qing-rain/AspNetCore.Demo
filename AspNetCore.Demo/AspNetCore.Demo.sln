@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IDS4-ClientCredentials", "IDS4-ClientCredentials", "{881F38E4-46A9-46A4-8FA2-FD46F14B56A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.IdentityServer", "IDS4-ClientCredentials\QingRain.IdentityServer\QingRain.IdentityServer.csproj", "{0A25D917-F276-4B67-9F74-123D3549879C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.Api", "IDS4-ClientCredentials\QingRain.Api\QingRain.Api.csproj", "{A1C15036-465C-434F-8EC1-AF98FDB24EE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.Client", "IDS4-ClientCredentials\QingRain.Client\QingRain.Client.csproj", "{F6E7D139-B3BF-4539-A18C-721C9048A874}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A25D917-F276-4B67-9F74-123D3549879C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A25D917-F276-4B67-9F74-123D3549879C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A25D917-F276-4B67-9F74-123D3549879C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A25D917-F276-4B67-9F74-123D3549879C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C15036-465C-434F-8EC1-AF98FDB24EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C15036-465C-434F-8EC1-AF98FDB24EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C15036-465C-434F-8EC1-AF98FDB24EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C15036-465C-434F-8EC1-AF98FDB24EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E7D139-B3BF-4539-A18C-721C9048A874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E7D139-B3BF-4539-A18C-721C9048A874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E7D139-B3BF-4539-A18C-721C9048A874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E7D139-B3BF-4539-A18C-721C9048A874}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A25D917-F276-4B67-9F74-123D3549879C} = {881F38E4-46A9-46A4-8FA2-FD46F14B56A6}
+		{A1C15036-465C-434F-8EC1-AF98FDB24EE2} = {881F38E4-46A9-46A4-8FA2-FD46F14B56A6}
+		{F6E7D139-B3BF-4539-A18C-721C9048A874} = {881F38E4-46A9-46A4-8FA2-FD46F14B56A6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6C2B872-C921-4047-BEB7-FD9EC7310FF2}
+	EndGlobalSection
+EndGlobal
