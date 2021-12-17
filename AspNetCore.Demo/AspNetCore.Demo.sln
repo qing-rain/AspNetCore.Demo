@@ -55,7 +55,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.IdentityServer.Dev
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.Api.Device", "IDS4-Device\QingRain.Api.Device\QingRain.Api.Device.csproj", "{509F7D99-1270-4971-9013-4047FD57F830}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QingRain.WpfClient.Device", "IDS4-Device\QingRain.WpfClient.Device\QingRain.WpfClient.Device.csproj", "{1EC229B2-7AB5-4EBD-A5A7-778EA4DCB780}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.WpfClient.Device", "IDS4-Device\QingRain.WpfClient.Device\QingRain.WpfClient.Device.csproj", "{1EC229B2-7AB5-4EBD-A5A7-778EA4DCB780}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IDS4-JwtBearer", "IDS4-JwtBearer", "{03F3F9DB-5594-416D-8950-DB75D3A23D52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.Api.JwtBearer", "IDS4-JwtBearer\QingRain.Api.JwtBearer\QingRain.Api.JwtBearer.csproj", "{1A44AE5F-52A3-4E56-89F1-B247860C50C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.Client.JwtBearer", "IDS4-JwtBearer\QingRain.Client.JwtBearer\QingRain.Client.JwtBearer.csproj", "{4B203B97-96F4-443C-87FE-748C87303391}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.IdentityServer.JwtBearer", "IDS4-JwtBearer\QingRain.IdentityServer.JwtBearer\QingRain.IdentityServer.JwtBearer.csproj", "{85489E26-EB61-4B9F-BCA8-57E0F43AE41E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.MvcClient.JwtBearer", "IDS4-JwtBearer\QingRain.MvcClient.JwtBearer\QingRain.MvcClient.JwtBearer.csproj", "{3EBA6BB6-EC35-48D0-B23E-F2683E55D09F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QingRain.JavaScriptClient.JwtBearer", "IDS4-JwtBearer\QingRain.JavaScriptClient.JwtBearer\QingRain.JavaScriptClient.JwtBearer.csproj", "{5F630DCB-E6A9-43B0-A908-BF94CA744AAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -139,6 +151,26 @@ Global
 		{1EC229B2-7AB5-4EBD-A5A7-778EA4DCB780}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EC229B2-7AB5-4EBD-A5A7-778EA4DCB780}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EC229B2-7AB5-4EBD-A5A7-778EA4DCB780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A44AE5F-52A3-4E56-89F1-B247860C50C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A44AE5F-52A3-4E56-89F1-B247860C50C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A44AE5F-52A3-4E56-89F1-B247860C50C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A44AE5F-52A3-4E56-89F1-B247860C50C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B203B97-96F4-443C-87FE-748C87303391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B203B97-96F4-443C-87FE-748C87303391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B203B97-96F4-443C-87FE-748C87303391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B203B97-96F4-443C-87FE-748C87303391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85489E26-EB61-4B9F-BCA8-57E0F43AE41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85489E26-EB61-4B9F-BCA8-57E0F43AE41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85489E26-EB61-4B9F-BCA8-57E0F43AE41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85489E26-EB61-4B9F-BCA8-57E0F43AE41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EBA6BB6-EC35-48D0-B23E-F2683E55D09F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EBA6BB6-EC35-48D0-B23E-F2683E55D09F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EBA6BB6-EC35-48D0-B23E-F2683E55D09F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EBA6BB6-EC35-48D0-B23E-F2683E55D09F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F630DCB-E6A9-43B0-A908-BF94CA744AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F630DCB-E6A9-43B0-A908-BF94CA744AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F630DCB-E6A9-43B0-A908-BF94CA744AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F630DCB-E6A9-43B0-A908-BF94CA744AAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -163,6 +195,11 @@ Global
 		{92F89F4D-ED55-4E75-B9BA-BF45C4BFE71E} = {1F8831BC-C48F-4BFB-B7CD-4413E2A60F25}
 		{509F7D99-1270-4971-9013-4047FD57F830} = {1F8831BC-C48F-4BFB-B7CD-4413E2A60F25}
 		{1EC229B2-7AB5-4EBD-A5A7-778EA4DCB780} = {1F8831BC-C48F-4BFB-B7CD-4413E2A60F25}
+		{1A44AE5F-52A3-4E56-89F1-B247860C50C6} = {03F3F9DB-5594-416D-8950-DB75D3A23D52}
+		{4B203B97-96F4-443C-87FE-748C87303391} = {03F3F9DB-5594-416D-8950-DB75D3A23D52}
+		{85489E26-EB61-4B9F-BCA8-57E0F43AE41E} = {03F3F9DB-5594-416D-8950-DB75D3A23D52}
+		{3EBA6BB6-EC35-48D0-B23E-F2683E55D09F} = {03F3F9DB-5594-416D-8950-DB75D3A23D52}
+		{5F630DCB-E6A9-43B0-A908-BF94CA744AAC} = {03F3F9DB-5594-416D-8950-DB75D3A23D52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6C2B872-C921-4047-BEB7-FD9EC7310FF2}
