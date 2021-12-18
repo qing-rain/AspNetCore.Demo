@@ -1,6 +1,4 @@
-using IdentityServer4;
 using IdentityServerHost.Quickstart.UI;
-using Microsoft.IdentityModel.Tokens;
 using QingRain.IdentityServer.Device;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "QingRain.IdentityServer.AuthorizationCode": {
+    "QingRain.IdentityServer.Hybrid": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

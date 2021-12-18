@@ -10,7 +10,7 @@ builder.Services.AddControllersWithViews();
 JwtSecurityTokenHandler.DefaultMapInboundClaims = false;
 builder.Services.AddAuthentication(options =>
 {
-    options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme; 
+    options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
     options.DefaultChallengeScheme = OpenIdConnectDefaults.AuthenticationScheme;
 })
     .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme)

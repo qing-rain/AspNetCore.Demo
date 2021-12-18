@@ -3,18 +3,14 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 
 using Newtonsoft.Json.Linq;
 using QingRain.MvcClient.JwtBearer.Models;
 using System.Diagnostics;
-using System.IdentityModel.Tokens.Jwt;
-using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Threading.Tasks;
 
-namespace QingRain.MvcClient.JwtBearer
+namespace QingRain.MvcClient.JwtBearer.Controllers
 {
     [Authorize]
     public class HomeController : Controller
