@@ -77,6 +77,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.IdentityServer.Ide
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.MvcClient.IdentityServer", "IDS4-IdentityServer\QingRain.MvcClient.IdentityServer\QingRain.MvcClient.IdentityServer.csproj", "{7F3458DA-D965-4C61-9413-E93E964CA71D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IDS4-Identity", "IDS4-Identity", "{24724B24-8356-4C47-A46B-7FC73BFF12F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.Api.Identity", "IDS4-Identity\QingRain.Api.Identity\QingRain.Api.Identity.csproj", "{B3BB3718-A6C0-4C01-A96C-072537294CB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.IdentityServer.Identity", "IDS4-Identity\QingRain.IdentityServer.Identity\QingRain.IdentityServer.Identity.csproj", "{16960C85-4492-4831-98B1-54A99E3BD210}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QingRain.MvcClient.Identity", "IDS4-Identity\QingRain.MvcClient.Identity\QingRain.MvcClient.Identity.csproj", "{93648D50-2A58-43B9-8E4B-700B5B4206CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -191,6 +199,18 @@ Global
 		{7F3458DA-D965-4C61-9413-E93E964CA71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F3458DA-D965-4C61-9413-E93E964CA71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F3458DA-D965-4C61-9413-E93E964CA71D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3BB3718-A6C0-4C01-A96C-072537294CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BB3718-A6C0-4C01-A96C-072537294CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BB3718-A6C0-4C01-A96C-072537294CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BB3718-A6C0-4C01-A96C-072537294CB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16960C85-4492-4831-98B1-54A99E3BD210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16960C85-4492-4831-98B1-54A99E3BD210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16960C85-4492-4831-98B1-54A99E3BD210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16960C85-4492-4831-98B1-54A99E3BD210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93648D50-2A58-43B9-8E4B-700B5B4206CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93648D50-2A58-43B9-8E4B-700B5B4206CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93648D50-2A58-43B9-8E4B-700B5B4206CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93648D50-2A58-43B9-8E4B-700B5B4206CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -223,6 +243,9 @@ Global
 		{B4FD8F09-E2FC-42BF-912F-F05D7DA36716} = {22A91B2E-44A9-483C-AD0F-6D235241EE30}
 		{DF96FD09-CE78-43F3-92FD-DD8BB8E3C778} = {22A91B2E-44A9-483C-AD0F-6D235241EE30}
 		{7F3458DA-D965-4C61-9413-E93E964CA71D} = {22A91B2E-44A9-483C-AD0F-6D235241EE30}
+		{B3BB3718-A6C0-4C01-A96C-072537294CB5} = {24724B24-8356-4C47-A46B-7FC73BFF12F6}
+		{16960C85-4492-4831-98B1-54A99E3BD210} = {24724B24-8356-4C47-A46B-7FC73BFF12F6}
+		{93648D50-2A58-43B9-8E4B-700B5B4206CD} = {24724B24-8356-4C47-A46B-7FC73BFF12F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6C2B872-C921-4047-BEB7-FD9EC7310FF2}
